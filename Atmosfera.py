@@ -1,6 +1,4 @@
 import numpy
-
-
 class Atmosphere:
     def __init__(self, height):
         self.height = height
