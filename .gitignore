@@ -1,3 +1,32 @@
-# file: ~/.gitignore_global
-.DS_Store
-.idea
+#PyCharm
+.idea/
+
+# virtualenv
+venv/
+ENV/
+
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
